@@ -4,7 +4,7 @@ from langchain.schema import HumanMessage, SystemMessage, AIMessage
 import os
 
 # Set API key for the model
-os.environ['GROQ_API_KEY'] = key
+key = os.environ["GROQ_API_KEY"] 
 
 # Streamlit UI settings
 st.set_page_config(page_title="Programming Q&A Chatbot", layout="wide")
