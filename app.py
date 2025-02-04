@@ -108,4 +108,5 @@ with st.container():
 # Process the input if submitted
 if submit and input_text:
     response = get_chatmodel_response(input_text)
-    st.experimental_rerun()
+    st.rerun()
+
