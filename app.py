@@ -1,7 +1,6 @@
 import streamlit as st
 from langchain_groq import ChatGroq
 from langchain.schema import HumanMessage, SystemMessage, AIMessage
-from constants import key
 import os
 
 # Set API key for the model
